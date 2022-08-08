@@ -14,9 +14,8 @@ a:hover {
 }
 
 .logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  width: 120px;
+  height: 45px;
 }
 
 nav {
