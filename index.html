@@ -60,15 +60,15 @@
           <div class="col-auto my-1">
             <div aria-label="Cotas" class="btn-group my-1" role="group">
               <button onclick="setAllCotas()" class="btn btn-dark btn_all" type="button">Todas (<span
-                  class="j_all">100</span>) </button>
+                  class="j_all">1000</span>) </button>
               <button onclick="setSearchStatus(3)" class="btn btn-light btn_available" type="button"><i
-                  class="fa fa-pencil-square-o" aria-hidden="true"></i> Livres (<span class="j_available">0</span>)
+                  class="fa fa-pencil-square-o" aria-hidden="true"></i> Livres (<span class="j_available">1000</span>)
               </button>
               <button onclick="setSearchStatus(0)" class="btn btn-info btn_reserved" type="button"> <i
                   class="fa fa-clock-o" aria-hidden="true"></i> Reservados (<span class="j_reserved">0</span>)
               </button>
               <button onclick="setSearchStatus(1)" class="btn btn-success btn_paid" type="button"><i
-                  class="fa fa-check-square-o" aria-hidden="true"></i> Pagos (<span class="j_paid">100</span>)
+                  class="fa fa-check-square-o" aria-hidden="true"></i> Pagos (<span class="j_paid">0</span>)
               </button>
             </div>
           </div>
@@ -77,704 +77,1866 @@
           <div class="cotas-pages">
             <div class="listcotas">
               <div class="cotas-listagem">
-                <div class="cotas-item status1">
-                  <div class="cotas-item--content">00</div>
-                  <div class="cotas-item--tooltip">
-                    <div>Número 00 pago</div>
-                    <div class="text-warning">TESTE DA SILVA</div>
-                  </div>
-                </div>
                 <div class="cotas-item status2">
-                  <div class="cotas-item--content">01</div>
+                  <div class="cotas-item--content">000</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 01 livre</div>
-                    <div class="text-warning">Sem Comprador</div>
-                  </div>
-                </div>
-                <div class="cotas-item status">
-                  <div class="cotas-item--content">02</div>
-                  <div class="cotas-item--tooltip">
-                    <div>Número 02 livre</div>
+                    <div>Número 000 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
                 <div class="cotas-item status2">
-                  <div class="cotas-item--content">03</div>
+                  <div class="cotas-item--content">001</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 03 livre</div>
+                    <div>Número 001 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
                 <div class="cotas-item status2">
-                  <div class="cotas-item--content">04</div>
+                  <div class="cotas-item--content">002</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 04 livre</div>
+                    <div>Número 002 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
                 <div class="cotas-item status2">
-                  <div class="cotas-item--content">05</div>
+                  <div class="cotas-item--content">003</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 05 livre</div>
+                    <div>Número 003 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status3">
-                  <div class="cotas-item--content">06</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">004</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 06 livre</div>
+                    <div>Número 004 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status0">
-                  <div class="cotas-item--content">07</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">005</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 07 livre</div>
+                    <div>Número 005 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1">
-                  <div class="cotas-item--content">08</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">006</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 08 livre</div>
+                    <div>Número 006 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status0">
-                  <div class="cotas-item--content">09</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">007</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 09 livre</div>
+                    <div>Número 007 livre</div>
                     <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status">
-                  <div class="cotas-item--content">10</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">008</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 010 pago</div>
-                    <div class="text-warning">Rafael André Martins</div>
+                    <div>Número 008 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 11)" id="cota_11">
-                  <div class="cotas-item--content">11</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">009</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 011 pago</div>
-                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                    <div>Número 009 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 12)" id="cota_12">
-                  <div class="cotas-item--content">12</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">010</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 012 pago</div>
-                    <div class="text-warning">Vitor de Souza Moreira</div>
+                    <div>Número 010 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 13)" id="cota_13">
-                  <div class="cotas-item--content">13</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">011</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 013 pago</div>
-                    <div class="text-warning">Vitor de Souza Moreira</div>
+                    <div>Número 011 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 14)" id="cota_14">
-                  <div class="cotas-item--content">14</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">012</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 014 pago</div>
-                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                    <div>Número 012 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 15)" id="cota_15">
-                  <div class="cotas-item--content">15</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">013</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 015 pago</div>
-                    <div class="text-warning">Vitor de Souza Moreira</div>
+                    <div>Número 013 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 16)" id="cota_16">
-                  <div class="cotas-item--content">16</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">014</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 016 pago</div>
-                    <div class="text-warning">Rhayam Almeida</div>
+                    <div>Número 014 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 17)" id="cota_17">
-                  <div class="cotas-item--content">17</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">015</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 017 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 015 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 18)" id="cota_18">
-                  <div class="cotas-item--content">18</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">016</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 018 pago</div>
-                    <div class="text-warning">Rafael André Martins</div>
+                    <div>Número 016 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 19)" id="cota_19">
-                  <div class="cotas-item--content">19</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">017</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 019 pago</div>
-                    <div class="text-warning">Patrick Pierre ramos vieira</div>
+                    <div>Número 017 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 20)" id="cota_20">
-                  <div class="cotas-item--content">20</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">018</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 020 pago</div>
-                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                    <div>Número 018 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 21)" id="cota_21">
-                  <div class="cotas-item--content">21</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">019</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 021 pago</div>
-                    <div class="text-warning">Patrick Pierre ramos vieira</div>
+                    <div>Número 019 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 22)" id="cota_22">
-                  <div class="cotas-item--content">22</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">020</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 022 pago</div>
-                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                    <div>Número 020 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 23)" id="cota_23">
-                  <div class="cotas-item--content">23</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">021</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 023 pago</div>
-                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                    <div>Número 021 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 24)" id="cota_24">
-                  <div class="cotas-item--content">24</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">022</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 024 pago</div>
-                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                    <div>Número 022 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 25)" id="cota_25">
-                  <div class="cotas-item--content">25</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">023</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 025 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 023 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 26)" id="cota_26">
-                  <div class="cotas-item--content">26</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">024</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 026 pago</div>
-                    <div class="text-warning">Rony chagas Ferreira</div>
+                    <div>Número 024 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 27)" id="cota_27">
-                  <div class="cotas-item--content">27</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">025</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 027 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 025 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 28)" id="cota_28">
-                  <div class="cotas-item--content">28</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">026</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 28 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 026 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 29)" id="cota_29">
-                  <div class="cotas-item--content">29</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">027</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 29 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 027 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 30)" id="cota_30">
-                  <div class="cotas-item--content">30</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">028</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 30 pago</div>
-                    <div class="text-warning">Lucas Muniz Barra da Silva</div>
+                    <div>Número 028 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 31)" id="cota_31">
-                  <div class="cotas-item--content">31</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">029</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 31 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 029 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 32)" id="cota_32">
-                  <div class="cotas-item--content">32</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">030</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 32 pago</div>
-                    <div class="text-warning">José Luiz falcão</div>
+                    <div>Número 030 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 33)" id="cota_33">
-                  <div class="cotas-item--content">33</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">031</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 33 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 031 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 34)" id="cota_34">
-                  <div class="cotas-item--content">34</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">032</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 34 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 032 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 35)" id="cota_35">
-                  <div class="cotas-item--content">35</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">033</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 35 pago</div>
-                    <div class="text-warning">Vitor de Souza Moreira</div>
+                    <div>Número 033 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 36)" id="cota_36">
-                  <div class="cotas-item--content">36</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">034</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 36 pago</div>
-                    <div class="text-warning">Vitor de Souza Moreira</div>
+                    <div>Número 034 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 37)" id="cota_37">
-                  <div class="cotas-item--content">37</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">035</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 37 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 035 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 38)" id="cota_38">
-                  <div class="cotas-item--content">38</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">036</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 38 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 036 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 39)" id="cota_39">
-                  <div class="cotas-item--content">39</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">037</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 39 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 037 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 40)" id="cota_40">
-                  <div class="cotas-item--content">40</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">038</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 40 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 038 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 41)" id="cota_41">
-                  <div class="cotas-item--content">41</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">039</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 41 pago</div>
-                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                    <div>Número 039 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 42)" id="cota_42">
-                  <div class="cotas-item--content">42</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">040</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 42 pago</div>
-                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                    <div>Número 040 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 43)" id="cota_43">
-                  <div class="cotas-item--content">43</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">041</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 43 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 041 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 44)" id="cota_44">
-                  <div class="cotas-item--content">44</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">042</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 44 pago</div>
-                    <div class="text-warning">Gabriel Antônio Das Neves</div>
+                    <div>Número 042 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 45)" id="cota_45">
-                  <div class="cotas-item--content">45</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">043</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 45 pago</div>
-                    <div class="text-warning">Deoclecio Neponoceno De oliveira</div>
+                    <div>Número 043 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 46)" id="cota_46">
-                  <div class="cotas-item--content">46</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">044</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 46 pago</div>
-                    <div class="text-warning">Vitor de Souza Moreira</div>
+                    <div>Número 044 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 47)" id="cota_47">
-                  <div class="cotas-item--content">47</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">045</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 47 pago</div>
-                    <div class="text-warning">Vitor de Souza Moreira</div>
+                    <div>Número 045 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 48)" id="cota_48">
-                  <div class="cotas-item--content">48</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">046</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 48 pago</div>
-                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                    <div>Número 046 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 49)" id="cota_49">
-                  <div class="cotas-item--content">49</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">047</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 49 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 047 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 50)" id="cota_50">
-                  <div class="cotas-item--content">50</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">048</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 50 pago</div>
-                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                    <div>Número 048 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 51)" id="cota_51">
-                  <div class="cotas-item--content">51</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">049</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 51 pago</div>
-                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                    <div>Número 049 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 52)" id="cota_52">
-                  <div class="cotas-item--content">52</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">050</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 52 pago</div>
-                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                    <div>Número 050 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 53)" id="cota_53">
-                  <div class="cotas-item--content">53</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">051</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 53 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 051 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 54)" id="cota_54">
-                  <div class="cotas-item--content">54</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">052</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 54 pago</div>
-                    <div class="text-warning">Wesley Couto</div>
+                    <div>Número 052 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 55)" id="cota_55">
-                  <div class="cotas-item--content">55</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">053</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 55 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 053 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 56)" id="cota_56">
-                  <div class="cotas-item--content">56</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">054</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 56 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 054 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 57)" id="cota_57">
-                  <div class="cotas-item--content">57</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">055</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 57 pago</div>
-                    <div class="text-warning">Matheus de Souza Lopes</div>
+                    <div>Número 055 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 58)" id="cota_58">
-                  <div class="cotas-item--content">58</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">056</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 58 pago</div>
-                    <div class="text-warning">Mario Jose Franco Adala</div>
+                    <div>Número 056 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 59)" id="cota_59">
-                  <div class="cotas-item--content">59</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">057</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 59 pago</div>
-                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                    <div>Número 057 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 60)" id="cota_60">
-                  <div class="cotas-item--content">60</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">058</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 60 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 058 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 61)" id="cota_61">
-                  <div class="cotas-item--content">61</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">059</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 61 pago</div>
-                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                    <div>Número 059 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 62)" id="cota_62">
-                  <div class="cotas-item--content">62</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">060</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 62 pago</div>
-                    <div class="text-warning">Lucas Eugênio de barros</div>
+                    <div>Número 060 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 63)" id="cota_63">
-                  <div class="cotas-item--content">63</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">061</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 63 pago</div>
-                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                    <div>Número 061 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 64)" id="cota_64">
-                  <div class="cotas-item--content">64</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">062</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 64 pago</div>
-                    <div class="text-warning">Rafael André Martins</div>
+                    <div>Número 062 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 65)" id="cota_65">
-                  <div class="cotas-item--content">65</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">063</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 65 pago</div>
-                    <div class="text-warning">Luis Fernando da Silva</div>
+                    <div>Número 063 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 66)" id="cota_66">
-                  <div class="cotas-item--content">66</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">064</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 66 pago</div>
-                    <div class="text-warning">Carlos Aparecido Brito Matos</div>
+                    <div>Número 064 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 67)" id="cota_67">
-                  <div class="cotas-item--content">67</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">065</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 67 pago</div>
-                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                    <div>Número 065 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 68)" id="cota_68">
-                  <div class="cotas-item--content">68</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">066</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 68 pago</div>
-                    <div class="text-warning">Rony chagas Ferreira</div>
+                    <div>Número 066 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 69)" id="cota_69">
-                  <div class="cotas-item--content">69</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">067</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 69 pago</div>
-                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                    <div>Número 067 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 70)" id="cota_70">
-                  <div class="cotas-item--content">70</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">068</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 70 pago</div>
-                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                    <div>Número 068 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 71)" id="cota_71">
-                  <div class="cotas-item--content">71</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">069</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 71 pago</div>
-                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                    <div>Número 069 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 72)" id="cota_72">
-                  <div class="cotas-item--content">72</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">070</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 72 pago</div>
-                    <div class="text-warning">Matheus de Souza Lopes</div>
+                    <div>Número 070 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 73)" id="cota_73">
-                  <div class="cotas-item--content">73</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">071</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 73 pago</div>
-                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                    <div>Número 071 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 74)" id="cota_74">
-                  <div class="cotas-item--content">74</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">072</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 74 pago</div>
-                    <div class="text-warning">Rafael André Martins</div>
+                    <div>Número 072 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 75)" id="cota_75">
-                  <div class="cotas-item--content">75</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">073</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 75 pago</div>
-                    <div class="text-warning">Matheus de Souza Lopes</div>
+                    <div>Número 073 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 76)" id="cota_76">
-                  <div class="cotas-item--content">76</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">074</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 76 pago</div>
-                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                    <div>Número 074 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 77)" id="cota_77">
-                  <div class="cotas-item--content">77</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">075</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 77 pago</div>
-                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                    <div>Número 075 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 78)" id="cota_78">
-                  <div class="cotas-item--content">78</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">076</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 78 pago</div>
-                    <div class="text-warning">Lucas Eugênio de barros</div>
+                    <div>Número 076 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 79)" id="cota_79">
-                  <div class="cotas-item--content">79</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">077</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 79 pago</div>
-                    <div class="text-warning">José Luiz falcão</div>
+                    <div>Número 077 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 80)" id="cota_80">
-                  <div class="cotas-item--content">80</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">078</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 80 pago</div>
-                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                    <div>Número 078 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 81)" id="cota_81">
-                  <div class="cotas-item--content">81</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">079</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 81 pago</div>
-                    <div class="text-warning">Rafael André Martins</div>
+                    <div>Número 079 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 82)" id="cota_82">
-                  <div class="cotas-item--content">82</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">080</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 82 pago</div>
-                    <div class="text-warning">William Rodrigues de Souza</div>
+                    <div>Número 080 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 83)" id="cota_83">
-                  <div class="cotas-item--content">83</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">081</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 83 pago</div>
-                    <div class="text-warning">Tatiane Grazielle da Silva</div>
+                    <div>Número 081 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 84)" id="cota_84">
-                  <div class="cotas-item--content">84</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">082</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 84 pago</div>
-                    <div class="text-warning">Julio cezar de Oliveira Ferreira</div>
+                    <div>Número 082 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 85)" id="cota_85">
-                  <div class="cotas-item--content">85</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">083</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 85 pago</div>
-                    <div class="text-warning">Matheus de Souza Lopes</div>
+                    <div>Número 083 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 86)" id="cota_86">
-                  <div class="cotas-item--content">86</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">084</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 86 pago</div>
-                    <div class="text-warning">Wesley Couto</div>
+                    <div>Número 084 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 87)" id="cota_87">
-                  <div class="cotas-item--content">87</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">085</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 87 pago</div>
-                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                    <div>Número 085 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 88)" id="cota_88">
-                  <div class="cotas-item--content">88</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">086</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 88 pago</div>
-                    <div class="text-warning">Samuel ricardo Silva souza</div>
+                    <div>Número 086 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 89)" id="cota_89">
-                  <div class="cotas-item--content">89</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">087</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 89 pago</div>
-                    <div class="text-warning">José Luiz falcão</div>
+                    <div>Número 087 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 90)" id="cota_90">
-                  <div class="cotas-item--content">90</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">088</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 90 pago</div>
-                    <div class="text-warning">Matheus de Souza Lopes</div>
+                    <div>Número 088 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 91)" id="cota_91">
-                  <div class="cotas-item--content">91</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">089</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 91 pago</div>
-                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                    <div>Número 089 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 92)" id="cota_92">
-                  <div class="cotas-item--content">92</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">090</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 92 pago</div>
-                    <div class="text-warning">Tiago Figueiredo Fonseca</div>
+                    <div>Número 090 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 93)" id="cota_93">
-                  <div class="cotas-item--content">93</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">091</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 93 pago</div>
-                    <div class="text-warning">Anderson oliveira dos santos</div>
+                    <div>Número 091 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 94)" id="cota_94">
-                  <div class="cotas-item--content">94</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">092</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 94 pago</div>
-                    <div class="text-warning">Francisco Monteiro da Silva filho</div>
+                    <div>Número 092 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 95)" id="cota_95">
-                  <div class="cotas-item--content">95</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">093</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 95 pago</div>
-                    <div class="text-warning">Anderson oliveira dos santos</div>
+                    <div>Número 093 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 96)" id="cota_96">
-                  <div class="cotas-item--content">96</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">094</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 96 pago</div>
-                    <div class="text-warning">José Luiz falcão</div>
+                    <div>Número 094 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 97)" id="cota_97">
-                  <div class="cotas-item--content">97</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">095</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 97 pago</div>
-                    <div class="text-warning">Rafael de Oliveira Santos</div>
+                    <div>Número 095 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 98)" id="cota_98">
-                  <div class="cotas-item--content">98</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">096</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 98 pago</div>
-                    <div class="text-warning">José Luiz falcão</div>
+                    <div>Número 096 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
-                <div class="cotas-item status1  " onclick="fncChoose(this, 99)" id="cota_99">
-                  <div class="cotas-item--content">99</div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">097</div>
                   <div class="cotas-item--tooltip">
-                    <div>Número 99 pago</div>
-                    <div class="text-warning">Gean Gleidson A Garrido</div>
+                    <div>Número 097 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">098</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 098 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">099</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 099 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">100</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 100 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">101</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 101 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">102</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 102 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">103</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 103 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">104</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 104 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">105</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 105 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">106</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 106 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">107</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 107 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">108</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 108 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">109</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 109 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">110</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 110 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">111</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 111 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">112</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 112 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">113</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 113 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">114</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 114 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">115</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 115 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">116</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 116 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">117</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 117 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">118</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 118 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">119</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 119 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">120</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 120 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">121</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 121 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">122</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 122 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">123</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 123 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">124</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 124 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">125</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 125 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">126</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 126 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">127</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 127 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">128</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 128 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">129</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 129 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">130</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 130 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">131</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 131 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">132</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 132 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">133</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 133 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">134</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 134 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">135</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 135 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">136</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 136 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">137</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 137 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">138</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 138 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">139</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 139 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">140</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 140 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">141</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 141 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">142</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 142 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">143</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 143 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">144</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 144 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">145</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 145 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">146</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 146 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">147</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 147 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">148</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 148 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">149</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 149 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">150</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 150 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">151</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 151 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">152</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 152 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">153</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 153 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">154</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 154 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">155</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 155 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">156</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 156 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">157</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 157 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">158</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 158 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">159</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 159 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">160</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 160 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">161</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 161 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">162</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 162 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">163</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 163 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">164</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 164 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">165</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 165 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">166</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 166 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">167</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 167 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">168</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 168 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">169</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 169 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">170</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 170 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">171</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 171 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">172</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 172 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">173</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 173 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">174</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 174 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">175</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 175 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">176</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 176 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">177</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 177 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">178</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 178 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">179</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 179 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">180</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 180 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">181</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 181 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">182</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 182 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">183</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 183 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">184</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 184 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">185</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 185 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">186</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 186 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">187</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 187 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">188</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 188 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">189</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 189 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">190</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 190 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">191</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 191 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">192</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 192 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">193</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 193 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">194</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 194 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">195</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 195 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">196</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 191 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">197</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 197 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">198</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 198 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">199</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 199 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">200</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 200 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">201</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 201 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">202</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 202 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">203</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 203 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">204</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 204 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">205</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 205 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">206</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 206 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">207</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 207 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">208</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 208 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">209</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 209 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">210</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 210 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">211</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 211 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">212</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 212 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">213</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 213 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">214</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 214 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">215</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 215 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">216</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 216 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">217</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 217 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">218</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 218 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">219</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 219 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">220</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 220 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">221</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 221 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">222</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 222 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">223</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 223 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">224</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 224 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">225</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 225 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">226</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 226 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">227</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 227 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">228</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 228 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">229</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 229 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">230</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 230 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">231</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 231 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">232</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 232 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">233</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 233 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">234</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 234 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">235</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 235 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">236</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 236 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">237</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 237 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">238</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 238 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">239</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 239 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">240</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 240 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">241</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 241 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">242</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 242 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">243</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 243 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">244</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 244 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">245</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 245 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">246</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 246 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">247</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 247 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">248</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 248 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">249</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 249 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">250</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 250 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">251</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 251 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">252</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 252 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">253</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 253 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">254</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 254 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">255</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 255 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">256</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 256 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">257</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 257 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">258</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 258 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">259</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 259 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">260</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 260 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">261</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 261 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">262</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 262 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">263</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 263 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">264</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 264 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
+                  </div>
+                </div>
+                <div class="cotas-item status2">
+                  <div class="cotas-item--content">265</div>
+                  <div class="cotas-item--tooltip">
+                    <div>Número 265 livre</div>
+                    <div class="text-warning">Sem Comprador</div>
                   </div>
                 </div>
               </div>
